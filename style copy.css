@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.paizao{
+    background-color: #EFFAFF;
+    width: 1440px;
+    height: 430px;
+    display: flex;
+    flex-direction: row;
+}
+.pai-texto{
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+    }
+.pai-imagem{
+    display: flex;
+    flex-direction: row;
+    }
+.titulo{
+    color: #FF8A00;
+    font-family: "Major Mono Display", monospace;
+    font-weight: 400px;
+    font-size: 35px;
+}
+.paragrafo{
+    color: #4b4b4b;
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.coluna{
+    column-width: 2cap;
+}
+
+ 
