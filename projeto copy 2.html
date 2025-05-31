@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PROJETO</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body, html {
+      height: 100%;
+      width: 100%;
+    }
+    .container {
+      width: 100vw;
+      height: 100vh;
+      font-size: 24px;
+    }
+    .linha {
+      width: 100%;
+      height: 50%;
+      white-space: nowrap; /* evitar quebra */
+    }
+    .box {
+      display: inline-block;
+      width: 50%;
+      height: 100%;
+      border: 2px solid #000;
+      background-color: #dcdcdc;
+      text-align: center;
+      line-height: calc(50vh); /* centraliza vertical */
+      box-sizing: border-box;
+      vertical-align: top;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="linha">
+      <div class="box">Teste 1</div>
+      <div class="box">Teste 3</div>
+    </div>
+    <div class="linha">
+      <div class="box">Teste 2</div>
+      <div class="box">Teste 4</div>
+    </div>
+  </div>
+
+</body>
+</html>
