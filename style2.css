@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.paizao{
+    background-color: #EFFAFF;
+    width: 1440px;
+    height: 430px;
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-end;
+
+}
+.pai-texto{
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+    }
+.pai-imagem{
+    flex-direction: row;
+    }
+.titulo{
+    color: #FF8A00;
+    font-family: "Major Mono Display", monospace;
+    font-weight: 400px;
+    font-size: 30px;
+}
+.paragrafo{
+    color: #4b4b4b;
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF8A00;
+    font-family: "Major Mono diplay", monospace;
+    width: 135px;
+    height: 30px;    
+    color: #EFFAFF;
+    font-size: 2x;
+    border-bottom: royalblue;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;    
+}
+
+.imagens-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: -95px;
+
+}
+
+.image-protetor, .image-creme{
+    width: 200px;
+    height: 200px;
+    margin-right: -100px;
+    margin-top: 240px;
+
+}
+
+.image-mulher{ 
+    height: 400px;     
+    margin-top: 30px;
+}
+
+ 

@@ -1,0 +1,290 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* container para separar a página em 04 partes
+O seletor * no CSS tem uma função específica:
+Ele é chamado de seletor universal e serve para selecionar todos os elementos da página.
+*/
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body, html {
+      height: 100%;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100vw;
+      height: 100vh;
+    }
+    .box {
+      width: 50%;
+      height: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 2px solid #000;
+      font-size: 24px;
+      background-color: white;
+    }
+
+/* Componente 02 */
+    .yellow-background {
+      background-color: #f9a825;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .yellow-content {
+      background-color: #f9a825;
+     padding: 40px;
+     max-width: 90%;
+     text-align: center;
+     border-radius: 12px;
+    }
+
+    .yellow-content h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+      color: white;
+    }
+
+    .yellow-content p {
+     font-size: 16px;
+     margin-bottom: 20px;
+     color: white;
+    }
+
+    .pizza-gallery {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .pizza-gallery img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid white;
+    }
+
+    .pizza-card {
+      background-color: #f9a825;
+      display: flex;
+      flex-direction: column;
+     align-items: center;
+     width: 180px;
+      padding: 10px;
+     text-align: center;
+    color: #000;
+    }
+
+    .pizza-card img {
+      width: 120px;
+     height: 120px;
+     object-fit: cover;
+     border-radius: 50%;
+     border: 3px solid white;
+      margin-bottom: 10px;
+    }
+
+    .pizza-card h3 {
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+
+    .pizza-card p {
+      font-size: 14px;
+      margin-bottom: 5px;
+      color: #333;
+    }
+
+    .pizza-card span {
+      font-size: 14px;
+      margin-bottom: 10px;
+      color: #000;
+    }
+
+    .pizza-card button {
+      padding: 8px 16px;
+      background-color: white;
+      color: black;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .pizza-card button:hover {
+      background-color: #fffde7;
+    }
+
+/* Componente 03 */
+
+.paizaodetodos{
+    background-color: #ffffff;
+    width: 928.17px;
+    height: 461.06px;
+    top: 969.86px;
+        
+}
+.titulodobanner{
+    
+    width: 447.78px;
+    height: 32px;
+    margin-top: 106px;
+    margin-left: 32.97px;
+    font-family: Poppins;
+    font-weight: 700px;
+    font-size: 29.25px;
+
+}
+.amarelo{
+    color: #FFBB00;
+
+}
+
+.layout{
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 12.79px;
+    height: 300;
+    width: 420.6px;
+    height: 95.6px;
+    margin-top: 11.29px;
+    margin-left: 36.41px;
+       
+}
+.custom-img{
+    flex-direction: column;
+    width: 425px;
+    height: 200px;
+}   
+
+.custom-macarrao{
+    margin-top: -216px;
+    margin-left: 477.79px;
+    width: 350px;
+    height: auto;
+}
+
+/* Componente 04 */
+.titulo{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 20px;
+
+}
+
+.subtitulo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11px;
+    line-height: 1.4;
+    text-align: center;
+    max-width: 586px;
+    margin: 0 auto;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    padding-top: 50px;
+}
+
+.customer-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.imagem img {
+    max-width: 90%;
+    width: 500px; /* ou ajuste para o que mais se aproxima do Figma */
+    height: auto;
+    display: block;
+}
+
+/* Componente 01 */
+.component1 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.text-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  background-color: #ffbb00;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.buttons button:hover {
+  background-color: #ffd740;
+}
+
+.image-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.especial-img {
+  max-width: 100%;
+  height: auto;
+  width: 300px; /* ajuste conforme o design */
+}
+
+.logo {
+  width: 100%;
+  padding: 20px 30px 0 30px;
+}
+
+.logo img {
+  width: 120px; /* ou ajuste conforme o Figma */
+  height: auto;
+}
